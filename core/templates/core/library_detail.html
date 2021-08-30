@@ -521,7 +521,7 @@
                                 <tr>
                                     <td><a href="{{ analysis.get_absolute_url }}">{{ analysis.id }}</a></td>
                                     <td><a href="https://www.bcgsc.ca/jira/browse/{{ analysis.analysis_jira_ticket }}">{{ analysis.analysis_jira_ticket }}</a></td>
-                                    <td><a href="https://52.235.35.201/?dashboard={{ analysis.analysis_jira_ticket }}">{{ analysis.analysis_jira_ticket }}</a></td>
+                                    <td><a href="https://alhena.molonc.ca/alhena/dashboards/{{ analysis.analysis_jira_ticket }}">{{ analysis.analysis_jira_ticket }}</a></td>
                                     <td>{{ analysis.version.version }}</td>
                                     <td>{{ analysis.aligner }}</td>
                                     <td>{{analysis.lanes.all.count}}</td>
