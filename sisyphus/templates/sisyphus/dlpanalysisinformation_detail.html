@@ -28,7 +28,7 @@
             <th id="thid">Montage:</th>
             <td id="tdid" >
                 {% if object.montage_status == 'Success' %}
-                <a href="https://52.235.35.201/?dashboard={{object.analysis_jira_ticket}}">{{object.montage_status}}</a>
+                <a href="https://alhena.molonc.ca/alhena/dashboards/{{object.analysis_jira_ticket}}">{{object.montage_status}}</a>
                 {% else %}
                 {{object.montage_status}}
                 {% endif %}
